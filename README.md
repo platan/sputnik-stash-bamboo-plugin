@@ -79,6 +79,12 @@ Define global variable or plan variable with key `sputnik.connector.username`.
 Please configure correct username and password for Bitbucket Server.
 
 
+> "Exception in thread "main" pl.touk.sputnik.connector.stash.StashException: Error when listing files
+
+> "Caused by: javax.net.ssl.SSLException: Unrecognized SSL message, plaintext connection?"
+
+Please check your SSL connection. If you want to turn it off use `sputnik.connector.useHttps` global variable. 
+
 ## Development
 
 Here are the SDK commands you'll use immediately:
