@@ -14,7 +14,7 @@
         <url>https://github.com/platan/</url>
     </organization>
     <scm>
-        <developerConnection>scm:git:https://bitbucket.org/platanus/sputnik-bamboo-plugin.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/platan/sputnik-stash-bamboo-plugin.git</developerConnection>
     </scm>
 
     <properties>
