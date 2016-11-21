@@ -141,7 +141,7 @@ public class SputnikTask implements TaskType {
     @NotNull
     private Map<String, String> buildEnvironmentVariablesMap(TaskContext taskContext, String environmentVariables) {
         Map<String, String> environmentVariablesMap = new HashMap<String, String>();
-        if (environmentVariables != null) {
+        if (environmentVariables != null && !environmentVariables.isEmpty()) {
             taskContext.getBuildLogger().addBuildLogEntry("Using environment variables: " + environmentVariables);
             environmentVariablesMap.putAll(environmentVariableAccessor.splitEnvironmentAssignments(environmentVariables));
         }
