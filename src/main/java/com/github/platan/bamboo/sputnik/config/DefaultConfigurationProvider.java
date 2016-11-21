@@ -61,8 +61,9 @@ public class DefaultConfigurationProvider implements ConfigurationProvider {
     }
 
     private String getSputnikPath(ConfigurationMap configurationMap, CapabilityContext capabilityContext) {
-        if (configurationMap.containsKey(SputnikTaskConfigurationConstants.BUILDER_SPUTNIK_PATH)) {
-            return configurationMap.get(SputnikTaskConfigurationConstants.BUILDER_SPUTNIK_PATH);
+        String sputnikPathFromConfiguration = configurationMap.get(SputnikTaskConfigurationConstants.BUILDER_SPUTNIK_PATH);
+        if (sputnikPathFromConfiguration != null && !sputnikPathFromConfiguration.isEmpty()) {
+            return sputnikPathFromConfiguration;
         }
         return capabilityContext.getCapabilityValue(SputnikCapabilityDefaultsHelper.CAPABILITY_KEY);
     }

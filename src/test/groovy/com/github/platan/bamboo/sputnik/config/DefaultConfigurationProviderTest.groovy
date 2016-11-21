@@ -85,6 +85,22 @@ class DefaultConfigurationProviderTest extends Specification {
         configuration.sputnikPath == '/opt/sputnik-1.7.5'
     }
 
+    def 'ignore empty sputnik path from configuration'() {
+        given:
+        Map<String, VariableDefinitionContext> variables = requiredVariables()
+        DefaultConfigurationProvider configurationProvider = new DefaultConfigurationProvider()
+        def capabilityContext = Stub(CapabilityContext) {
+            getCapabilityValue('system.builder.sputnik.Sputnik') >> '/opt/sputnik'
+        }
+        def configurationMap = new ConfigurationMapImpl(['builder.sputnik.path': ''])
+
+        when:
+        def configuration = configurationProvider.getConfiguration(variables, capabilityContext, configurationMap)
+
+        then:
+        configuration.sputnikPath == '/opt/sputnik'
+    }
+
     @Unroll
     def "get extra option #optionKey=#optionValue from variables"() {
         given:
