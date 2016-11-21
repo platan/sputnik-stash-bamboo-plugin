@@ -1,0 +1,19 @@
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
+    <plugin-info>
+        <description>${project.description}</description>
+        <version>${project.version}</version>
+        <vendor name="${project.organization.name}" url="${project.organization.url}"/>
+    </plugin-info>
+
+    <resource type="i18n" name="i18n" location="i18n"/>
+
+    <taskType key="sputnikBambooTask" name="Sputnik" class="com.github.platan.bamboo.sputnik.SputnikTask">
+        <description>Runs Sputnik</description>
+        <category name="test"/>
+        <executable key="sputnik" nameKey="sputnik.executable" primaryCapabilityProvider="true"/>
+        <capabilityDefaultsHelper class="com.github.platan.bamboo.sputnik.SputnikCapabilityDefaultsHelper"/>
+        <configuration class="com.github.platan.bamboo.sputnik.SputnikTaskConfigurator"/>
+        <resource type="freemarker" name="edit" location="templates/sputnikTaskEdit.ftl"/>
+        <resource type="freemarker" name="view" location="templates/sputnikTaskView.ftl"/>
+    </taskType>
+</atlassian-plugin>

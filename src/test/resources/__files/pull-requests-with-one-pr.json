@@ -1,0 +1,178 @@
+{
+  "start": 0,
+  "values": [
+    {
+      "links": {
+        "self": [
+          {
+            "href": "http://pc:9100/stash/projects/PROJECT_1/repos/rep_1/pull-requests/1"
+          }
+        ]
+      },
+      "updatedDate": 1462566730756,
+      "createdDate": 1462566730756,
+      "closed": false,
+      "open": true,
+      "state": "OPEN",
+      "title": "a modification on branch basic_branching",
+      "version": 0,
+      "id": 1,
+      "fromRef": {
+        "repository": {
+          "links": {
+            "self": [
+              {
+                "href": "http://pc:9100/stash/projects/PROJECT_1/repos/rep_1/browse"
+              }
+            ],
+            "clone": [
+              {
+                "name": "ssh",
+                "href": "ssh://git@pc:7999/project_1/rep_1.git"
+              },
+              {
+                "name": "http",
+                "href": "http://admin@pc:9100/stash/scm/project_1/rep_1.git"
+              }
+            ]
+          },
+          "cloneUrl": "http://admin@pc:9100/stash/scm/project_1/rep_1.git",
+          "link": {
+            "rel": "self",
+            "url": "/projects/PROJECT_1/repos/rep_1/browse"
+          },
+          "public": false,
+          "slug": "rep_1",
+          "id": 1,
+          "name": "rep_1",
+          "scmId": "git",
+          "state": "AVAILABLE",
+          "statusMessage": "Available",
+          "forkable": true,
+          "project": {
+            "links": {
+              "self": [
+                {
+                  "href": "http://pc:9100/stash/projects/PROJECT_1"
+                }
+              ]
+            },
+            "link": {
+              "rel": "self",
+              "url": "/projects/PROJECT_1"
+            },
+            "type": "NORMAL",
+            "public": false,
+            "description": "Default configuration project #1",
+            "name": "Project 1",
+            "id": 1,
+            "key": "PROJECT_1"
+          }
+        },
+        "latestCommit": "d6edcbf924697ab811a867421dab60d954ccad99",
+        "latestChangeset": "d6edcbf924697ab811a867421dab60d954ccad99",
+        "displayId": "basic_branching",
+        "id": "refs/heads/basic_branching"
+      },
+      "toRef": {
+        "repository": {
+          "links": {
+            "self": [
+              {
+                "href": "http://pc:9100/stash/projects/PROJECT_1/repos/rep_1/browse"
+              }
+            ],
+            "clone": [
+              {
+                "name": "ssh",
+                "href": "ssh://git@pc:7999/project_1/rep_1.git"
+              },
+              {
+                "name": "http",
+                "href": "http://admin@pc:9100/stash/scm/project_1/rep_1.git"
+              }
+            ]
+          },
+          "cloneUrl": "http://admin@pc:9100/stash/scm/project_1/rep_1.git",
+          "link": {
+            "rel": "self",
+            "url": "/projects/PROJECT_1/repos/rep_1/browse"
+          },
+          "public": false,
+          "slug": "rep_1",
+          "id": 1,
+          "name": "rep_1",
+          "scmId": "git",
+          "state": "AVAILABLE",
+          "statusMessage": "Available",
+          "forkable": true,
+          "project": {
+            "links": {
+              "self": [
+                {
+                  "href": "http://pc:9100/stash/projects/PROJECT_1"
+                }
+              ]
+            },
+            "link": {
+              "rel": "self",
+              "url": "/projects/PROJECT_1"
+            },
+            "type": "NORMAL",
+            "public": false,
+            "description": "Default configuration project #1",
+            "name": "Project 1",
+            "id": 1,
+            "key": "PROJECT_1"
+          }
+        },
+        "latestCommit": "0a943a29376f2336b78312d99e65da17048951db",
+        "latestChangeset": "0a943a29376f2336b78312d99e65da17048951db",
+        "displayId": "master",
+        "id": "refs/heads/master"
+      },
+      "locked": false,
+      "author": {
+        "approved": false,
+        "role": "AUTHOR",
+        "user": {
+          "links": {
+            "self": [
+              {
+                "href": "http://pc:9100/stash/users/admin"
+              }
+            ]
+          },
+          "name": "admin",
+          "emailAddress": "admin@example.com",
+          "id": 1,
+          "displayName": "Administrator",
+          "active": true,
+          "slug": "admin",
+          "type": "NORMAL",
+          "link": {
+            "rel": "self",
+            "url": "/users/admin"
+          }
+        }
+      },
+      "reviewers": [],
+      "participants": [],
+      "attributes": {
+        "openTaskCount": [
+          "0"
+        ],
+        "resolvedTaskCount": [
+          "0"
+        ]
+      },
+      "link": {
+        "rel": "self",
+        "url": "/projects/PROJECT_1/repos/rep_1/pull-requests/1"
+      }
+    }
+  ],
+  "isLastPage": true,
+  "limit": 25,
+  "size": 1
+}
