@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.platan</groupId>
     <artifactId>sputnik-stash-bamboo-plugin</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1-SNAPSHOT</version>
     <name>Sputnik for Bitbucket Server and Bamboo</name>
     <packaging>atlassian-plugin</packaging>
     <description>This plugin integrates Sputnik with Atlassian Bamboo and Bitbucket Server (previously Stash)</description>
@@ -15,7 +15,7 @@
     </organization>
     <scm>
         <developerConnection>scm:git:https://github.com/platan/sputnik-stash-bamboo-plugin.git</developerConnection>
-      <tag>v0.1.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>
