@@ -6,7 +6,7 @@ This plugin integrates [Sputnik](https://github.com/TouK/sputnik) with [Atlassia
 <!--
 Plugin is available in [Atlassian Marketplace](https://marketplace.atlassian.com/plugins/com.github.platan.bamboo.sputnik.sputnik-bamboo-plugin/server/overview). You can install it [from the Marketplace](https://confluence.atlassian.com/display/UPM/Finding+new+add-ons) or [by file upload](https://confluence.atlassian.com/display/UPM/Installing+add-ons). 
  -->
-You can install it [by file upload](https://confluence.atlassian.com/display/UPM/Installing+add-ons). Distribution packages will be available at [releases page](https://github.com/platan/sputnik-stash-bamboo-plugin/releases).
+You can install it [by file upload](https://confluence.atlassian.com/display/UPM/Installing+add-ons). Distribution packages are available at [releases page](https://github.com/platan/sputnik-stash-bamboo-plugin/releases).
 This plugin requires Sputnik to be available at Bamboo agents. The most convenient way of using this plugin is to install Sputnik at Bamboo agent and define Sputnik capability. Alternatively, Sputnik path can be defined in task.
 
 ### How to define Sputnik capability
