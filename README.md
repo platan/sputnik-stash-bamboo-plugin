@@ -100,9 +100,9 @@ Full documentation is always available at:
 https://developer.atlassian.com/display/DOCS/Introduction+to+the+Atlassian+Plugin+SDK
 
 ## Changelog
-<!--
-### 0.1.0 (2016-11-XX[TODO])
+
+### 0.1.0 (2016-11-22)
 - initial release
--->
+
 ## License
 This project is licenced under the [Apache License 2.0](https://github.com/platan/sputnik-stash-bamboo-plugin/releases).
