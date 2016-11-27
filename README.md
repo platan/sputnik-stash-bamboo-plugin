@@ -58,6 +58,8 @@ In order to run Sputnik you have to:
 
 Under the hood Sputnik task will create a temporary file with configuration in a working directory. This file will be removed after task execution.  
 
+![Sputnik task configuration](https://github.com/platan/sputnik-stash-bamboo-plugin/blob/master/readme/task_configuration.png)
+
 ## FAQ
 > I'm getting error: "com.atlassian.bamboo.task.TaskException: Neither Sputnik capability nor Sputnik path is defined!"
 
