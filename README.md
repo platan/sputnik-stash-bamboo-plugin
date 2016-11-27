@@ -2,6 +2,8 @@
 
 This plugin integrates [Sputnik](https://github.com/TouK/sputnik) with [Atlassian Bamboo](https://www.atlassian.com/software/bamboo) and [Bitbucket Server](https://www.atlassian.com/software/bitbucket/server) (previously Stash).
 
+![Sample review](https://raw.githubusercontent.com/platan/sputnik-stash-bamboo-plugin/master/readme/review.png)
+
 ## Installation
 <!--
 Plugin is available in [Atlassian Marketplace](https://marketplace.atlassian.com/plugins/com.github.platan.bamboo.sputnik.sputnik-bamboo-plugin/server/overview). You can install it [from the Marketplace](https://confluence.atlassian.com/display/UPM/Finding+new+add-ons) or [by file upload](https://confluence.atlassian.com/display/UPM/Installing+add-ons). 
