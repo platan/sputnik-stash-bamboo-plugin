@@ -3,7 +3,7 @@ jdk:
   - oraclejdk8
 before_install:
   - wget https://marketplace.atlassian.com/download/plugins/atlassian-plugin-sdk-tgz
-  - tar -xvzf atlassian-plugin-sdk
+  - tar -xvzf atlassian-plugin-sdk*
   - mkdir opt
   - mv atlassian-plugin-sdk* opt/atlassian-plugin-sdk
   - export PATH=opt/atlassian-plugin-sdk/bin:$PATH
