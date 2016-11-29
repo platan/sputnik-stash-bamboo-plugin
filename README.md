@@ -1,4 +1,5 @@
 # Sputnik for Bitbucket Server and Bamboo
+[![Build Status](https://travis-ci.org/platan/sputnik-stash-bamboo-plugin.svg?branch=master)](https://travis-ci.org/platan/sputnik-stash-bamboo-plugin)
 
 This plugin integrates [Sputnik](https://github.com/TouK/sputnik) with [Atlassian Bamboo](https://www.atlassian.com/software/bamboo) and [Bitbucket Server](https://www.atlassian.com/software/bitbucket/server) (previously Stash).
 
